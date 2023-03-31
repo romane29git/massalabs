@@ -1,0 +1,281 @@
+body {
+  background: linear-gradient(90deg, #172231, #0d131a);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+.quote {
+  /* display: block; */
+  margin: 0;
+  padding: 0;
+}
+
+.quote_text {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #f50964 10%, #2463ed 75%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quote_line {
+  margin: 0px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.questions {
+  background: linear-gradient(145deg, #336ae1, #f9478c);
+  border-radius: 50px;
+  padding-inline: 130px;
+  padding-block: 30px;
+  margin: 50px 100px 10px 100px;
+  font-family: Arial, sans-serif;
+}
+
+.questions h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.questions p {
+  line-height: 2;
+  max-width: 60%;
+}
+
+button {
+  background-color: #e1463bd2;
+  border-radius: 60px;
+  font-size: 16px;
+  padding: 15px;
+  padding-inline: 20px;
+  color: white;
+  border: none;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.fab {
+  margin: 20px;
+}
+
+.top {
+  margin: 0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.menu_footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.bottomLink {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+footer a:visited,
+footer a,
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.bloc {
+  margin-bottom: 5%;
+}
+
+.subscribe {
+  margin: 25px 10px 10px 10px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 4.5rem;
+}
+
+.subscribe_button {
+  background: linear-gradient(145deg, #336ae1, #f9478c);
+  border-radius: 60px;
+  font-size: 16px;
+  padding: 15px;
+  padding-inline: 20px;
+  color: white;
+  border: none;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #f9478c 10%, #336ae1 85%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  width: 75%;
+  height: 50px;
+  border: 0;
+  border-bottom: solid white 1px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+}
+
+.input {
+  display: block;
+}
+
+.fas {
+  font-weight: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-inline: 60px;
+}
+
+.container h2 {
+  font-size: 4.5em;
+  color: rgba(255, 255, 255, 0.203);
+  margin-left: 6%;
+}
+
+.intro {
+  font-size: 15px;
+  line-height: 40px;
+  margin-inline: 150px;
+  margin-top: 80px;
+}
+
+strong {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.link {
+  background: linear-gradient(90deg, #f50964 10%, #2463ed 75%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 130px;
+  justify-content: space-around;
+}
+
+.team img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px black;
+}
+
+.team > div {
+  border-radius: 30px;
+  margin: 20px;
+}
+
+img {
+  overflow: clip;
+}
+
+.logo {
+  width: 150px;
+  height: 42px;
+}
+
+#logo {
+  width: 150px;
+  height: 42px;
+  float: right;
+}
+
+.infos {
+  text-align: center;
+  transform: translateY(100%) translateY(-88px) translateZ(0);
+  transition: transform 0.3s ease-out;
+  opacity: 0;
+}
+
+.member:hover .infos,
+.member:hover .infos:before {
+  transform: translateY(0) translateZ(0);
+  opacity: 1;
+}
+
+#wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  position: relative;
+}
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  overflow: auto;
+  white-space: nowrap;
+}
+.navbar li {
+  height: auto;
+  width: 180px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 16px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+}
+.navbar a {
+  padding: 18px 0;
+  border-right: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar li:hover,
+a:hover {
+  background: linear-gradient(90deg, #f50964 10%, #2463ed 75%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar li:hover ul {
+  display: block;
+}
